@@ -2,17 +2,85 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--<link rel="preconnect" href="https://fonts.googleapis.com"/>-->
+  <!--<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />-->
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />  
     <title>Results Summary</title>
   </head>
   <body>
-    <div class="row">
-      
+    <div class="card">
+      <div class="card-container">
+        <section class="result">
+          <h3 class="title">Your Result</h3>
+          <div class="circle">
+            <h1>76</h1>
+          <p>of 100</p>
+        </div>
+        <b>Great</b>
+        <p class="info">You scored higher than 65% of the people who have taken these tests.</p>
+      </section>
+      <section class="summary">
+        <h3 class="title">Summary</h3>
+        <div class="rows">
+          <div class="row">
+            <div class="badge">
+              <img src="./assets/images/reaction.svg" alt="icon">
+              <b>Reaction</b>
+            </div>
+            <p><b>80</b> / 100</p>
+          </div>
+          <div class="row">
+            <div class="badge">
+              <img src="./assets/images/memory.svg" alt="icon">
+              <b>Memory</b>
+            </div>
+            <p><b>92</b> / 100</p>
+          </div>
+          <div class="row">
+            <div class="badge">
+              <img src="./assets/images/verbal.svg" alt="icon">
+              <b>Verbal</b>
+            </div>
+            <p><b>61</b> / 100</p>
+          </div>
+          <div class="row">
+            <div class="badge">
+              <img src="./assets/images/visual.svg" alt="icon">
+              <b>Visual</b>
+            </div>
+            <p><b>72</b> / 100</p>
+          </div>
+        </div>
+        <button class="btn">Continue</button>
+      </section>
+    </div>
+  </div>
+  
+  <footer class="attribution">
+    Challenge by
+    <a
+      class="underline hover:text-primary hover:no-underline"
+      href="https://www.frontendmentor.io/"
+      target="_blank"
+      aria-describedby="Frontend Mentor Website"
+      >Frontend Mentor</a
+    >, Coded by
+    <a
+      class="underline hover:text-primary hover:no-underline"
+      href="https://github.com/TinoMiguez"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-describedby="TinoMiguez's Github profile"
+      >TinoMiguez</a
+    >
+  </footer>
     <div id="app"></div>
-    <div class=""
+    <div class=""></div>
     
-    <div id="root"></div>
+    <div id="root">
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
